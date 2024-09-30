@@ -42,7 +42,7 @@ from NumTextAlchemy import text2num
 
 text = 'one hundred twenty-three octodecillion four hundred fifty-six septendecillion seven hundred eighty-nine sexdecillion twelve quindecillion three hundred forty-five quattuordecillion six hundred seventy-eight tredecillion nine hundred one duodecillion two hundred thirty-four undecillion five hundred sixty-seven decillion eight hundred ninety nonillion one hundred twenty-three octillion four hundred fifty-six septillion seven hundred eighty-nine sextillion twelve quintillion three hundred forty-five quadrillion six hundred seventy-eight trillion nine hundred one billion two hundred thirty-four million five hundred sixty-seven thousand eight hundred ninety'
 
-number_text = text2num(number)
+number_text = text2num(text)
 
 print(number_text) # 123456789012345678901234567890123456789012345678901234567890
 ```
