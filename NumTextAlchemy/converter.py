@@ -283,8 +283,7 @@ def text2num(text:str):
         if temp_num:
             num+=int(temp_num)
     except:
-        print("Failed to convert text to number. Reason: Could not identify unit.")
-        return None
+        raise Exception("Failed to convert text to number. Reason: Could not identify unit.")
     return num
 
 if __name__ == "__main__":
